@@ -1,0 +1,14 @@
+User chose: Configure the IDE/Project to use C:\Users\kulyn\AppData\Local\Programs\Python\Python313 interpreter.
+
+Give me your IDE: Visual Studio or VS Code? I will provide exact steps.
+
+Common steps (Visual Studio):
+1) In Solution Explorer, right-click the Python project -> Properties -> General -> Python Environment.
+2) Select/Add the interpreter pointing to C:\Users\kulyn\AppData\Local\Programs\Python\Python313.
+3) Save and Start.
+
+Common steps (VS Code):
+1) Press Ctrl+Shift+P -> Python: Select Interpreter -> choose the Python 3.13 interpreter path or "Enter interpreter path" and browse to C:\Users\kulyn\AppData\Local\Programs\Python\Python313\python.exe.
+2) Restart VS Code and run the app.
+
+If you want, paste the IDE name and I will give exact step-by-step instructions.

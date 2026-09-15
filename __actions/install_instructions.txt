@@ -1,0 +1,9 @@
+User chose: Install Python from python.org and add to PATH.
+
+Steps (Windows):
+1) Download installer: https://www.python.org/downloads/windows/
+2) Run installer and CHECK "Add Python to PATH" on the first screen.
+3) Choose "Install Now" or "Customize installation" if you need optional features.
+4) After install, verify: python --version and python -m pip install flask
+
+If you prefer the Microsoft Store, note it may behave differently; python.org installer is recommended.

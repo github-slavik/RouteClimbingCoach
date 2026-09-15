@@ -1,0 +1,4 @@
+User chose: Install Flask into the current Python interpreter.
+Suggested command to run in terminal: python -m pip install flask
+If that fails, run: python -m pip install --upgrade pip setuptools
+If pip indicates success but error persists, run the diagnostic commands provided earlier to confirm interpreter and sys.path.

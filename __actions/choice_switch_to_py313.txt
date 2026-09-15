@@ -1,0 +1,10 @@
+User chose: Switch project interpreter to C:\Users\kulyn\AppData\Local\Programs\Python\Python313\python.exe
+
+Next steps (Visual Studio):
+1) Project -> Properties -> General -> Python Environment -> Add/Select Existing environment.
+2) Point Interpreter path to C:\Users\kulyn\AppData\Local\Programs\Python\Python313\python.exe.
+3) Make it the active environment for the project.
+4) In Python Environments window, open interactive and run: import sys; print(sys.executable); import flask; print(flask.__version__)
+5) Start debugging.
+
+If the import fails, run: C:\Users\kulyn\AppData\Local\Programs\Python\Python313\python.exe -m pip install flask

@@ -1,0 +1,17 @@
+Steps to add Python and Scripts to PATH (Windows):
+
+1) Open Start, search "Edit the system environment variables" and open it.
+2) Click "Environment Variables..." (bottom right).
+3) Under "User variables for <your user>", select Path and click Edit.
+4) Click New and add both paths:
+   C:\Users\kulyn\AppData\Local\Programs\Python\Python313
+   C:\Users\kulyn\AppData\Local\Programs\Python\Python313\Scripts
+5) Click OK on all dialogs to save.
+6) Close and reopen any terminals or your IDE so the new PATH is picked up.
+
+Verify in a new terminal:
+- python --version
+- pip --version
+- flask --version (optional)
+
+If a command still isn't found, restart your computer or confirm the paths match your installation.
